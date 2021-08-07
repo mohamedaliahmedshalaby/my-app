@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/apple_page">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_before_24"
+        android:id="@+id/apple_chack"
+        android:backgroundTint="#FF5722"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/apple"
+        android:id="@+id/apple"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apple"
+        android:id="@+id/apple_n"
+        android:textSize="26dp"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="description:its a good fruit"
+        android:textSize="22sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price:10$ for 1K"
+        android:textSize="22sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:numStars="10"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:rating="6"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Buy Now"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:id="@+id/buy_apple"
+        android:backgroundTint="#FF5722"
+        android:background="@drawable/custom_shape"/>
+</LinearLayout>
+

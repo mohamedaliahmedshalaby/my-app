@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Log in"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_margin="20dp"
+        android:textColor="#FF5722"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="E-mail"
+        android:background="@drawable/custom_shape"
+        android:layout_marginTop="30dp"
+        android:layout_height="60dp"
+        android:paddingLeft="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Password"
+        android:background="@drawable/custom_shape"
+        android:layout_marginTop="40dp"
+        android:layout_height="60dp"
+        android:paddingLeft="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Forget Password?"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:layout_marginTop="50dp"
+        android:layout_height="50dp"
+        android:paddingLeft="30dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Log in"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:backgroundTint="#FF5722"
+            android:textColor="#D4DBE1"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_shape"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Sign up"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#D4DBE1"
+            android:backgroundTint="#FF5722"
+            android:background="@drawable/custom_shape"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>

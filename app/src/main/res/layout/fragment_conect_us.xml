@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="contact Us"
+        android:textSize="26sp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:id="@+id/contact_back"
+        android:textColor="#D5DCE3"
+        android:background="#FF5722"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:textSize="24sp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:text="to contact with us: 01220798392"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:textSize="24sp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:text="to contact with us: 01145832886"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:textSize="24sp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:text="to contact with us: 01228700610"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:textSize="24sp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:text="to contact with us: 01140172735 "
+        android:layout_height="wrap_content"/>
+</LinearLayout>

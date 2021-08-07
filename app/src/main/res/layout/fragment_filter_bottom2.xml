@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:hint="Change language "
+        android:textColor="@color/white"
+        android:background="#FF5722"
+        android:textSize="24sp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#FF4722"
+        android:gravity="center_horizontal"
+        android:text="change App Language "
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/englih"
+            android:text="English"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:textColor="#FF5722" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arabi"
+            android:text="arabi"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#FF5722" />
+    </LinearLayout>
+</LinearLayout>

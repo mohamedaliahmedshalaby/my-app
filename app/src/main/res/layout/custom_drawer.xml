@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+android:background="#AB000000"
+android:layout_marginTop="30dp"
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/avater1"
+        android:id="@+id/avatar"
+        android:layout_centerVertical="true"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:layout_toRightOf="@+id/avatar"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user name"
+        android:layout_gravity="left"
+        android:layout_marginTop="16dp"
+        android:textSize="21dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Android Developer"
+    android:layout_gravity="right"
+    android:textSize="21dp"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    />
+
+<RatingBar
+    style="@style/Widget.AppCompat.RatingBar.Small"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:numStars="10"
+    android:layout_marginTop="16dp"
+    android:rating="4"></RatingBar>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:id="@+id/home_nav_item"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        android:drawablePadding="16dp"
+        android:textColor="#fff"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="favourite"
+        android:drawablePadding="16dp"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/fav_nav_item"
+
+        />
+
+    <TextView
+        android:id="@+id/sting_nav_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="setings"
+        android:drawablePadding="16dp"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:drawablePadding="16dp"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:id="@+id/log_out_item"
+        android:textColor="#fff"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google maps"
+        android:drawablePadding="16dp"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:id="@+id/maps_items"
+        android:textColor="#fff"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        />
+
+
+
+</LinearLayout>
+
